@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ScopeExit</id>
+    <version>$version$</version>
+    <description>C++11 scope guard library</description>
+    <authors>SergiusTheBest</authors>
+    <projectUrl>https://github.com/GnatenkoV/ScopeExit</projectUrl>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>native c++ cpp</tags>
+    <repository type="git" url="https://github.com/SergiusTheBest/ScopeExit" />
+    <dependencies>
+      <group targetFramework="native0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="include/**/*.h"       target="/lib/native" />
+    <file src="README.md"            target="/docs" />
+    <file src="scopeexit.targets"    target="/build/native" />
+    <file src="LICENSE" />
+  </files>
+</package>
